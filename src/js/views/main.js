@@ -10,7 +10,7 @@ Particles.init({
         breakpoint: 1367,
         options: {
         maxParticles: 150,
-        color: '#FF0000',
+        color: '#ffffff',
         connectParticles: true
     }
     },
@@ -18,7 +18,7 @@ Particles.init({
         breakpoint: 786,
         options: {
         maxParticles: 30,
-        color: '#FF0000',
+        color: '#ffffff',
         connectParticles: true
         }
     }, 
