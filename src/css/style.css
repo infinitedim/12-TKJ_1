@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -11,13 +12,9 @@ body {
 }
 
 
-/* .navbar .brand {
-    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
-    background-clip: text;  
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
+.navbar .brand {
+    font-family: 'Quicksand';
+}
 
 .background {
     position: absolute;
@@ -28,8 +25,12 @@ body {
     z-index: -1;
 }
 
-main h1 {
+.title {
     padding-top: 100px;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    font-family: 'Inter';
+    font-weight: 600;
 }
 
 main .sub-title {
@@ -38,6 +39,10 @@ main .sub-title {
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.listnav {
+    display: none;
 }
 
 
@@ -64,7 +69,10 @@ main .sub-title {
 
 .fa-hamburger {
     color: white;
+    margin-right: 20px;
 }
+
+
 
 /* .nav-link:hover::after,
 .nav-link:focus::after {
@@ -100,4 +108,9 @@ main .sub-title {
 .nav-item:nth-child(2) .nav-link:hover::after,
 .nav-item:nth-child(2) .nav-link:focus::after {
     transform: translate3d(0, 0, 0);
+}
+
+.btn {
+    font-family: 'Intern';
+    letter-spacing: 0.1em;
 }

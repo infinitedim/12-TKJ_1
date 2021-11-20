@@ -1,0 +1,11 @@
+@media screen and (min-width: 786px) {
+    .listnav {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .fa-hamburger {
+        display: none;
+    }
+}
