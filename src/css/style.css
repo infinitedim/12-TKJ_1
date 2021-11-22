@@ -1,60 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Quicksand:wght@700&display=swap');
+
+@import url(./responsive.css);
+
 * {
     padding: 0;
     margin: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
+    color: whitesmoke;
 }
 
 body {
     background: #000;
 }
 
-
-.navbar .brand {
-    font-family: 'Quicksand';
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
 }
 
-.background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}
-
-.title {
-    padding-top: 100px;
-    animation: fadeInDown;
-    animation-duration: 1s;
+nav .brand h1 {
+    font-size: 2em;
     font-family: 'Inter';
-    font-weight: 600;
 }
 
-main .sub-title {
-    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1), rgba(255, 0, 0, 1), rgba(255, 0, 180, 1));
-    background-clip: text;  
-    color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
 }
 
-.listnav {
-    display: none;
-}
-
-
-/* Underline styles */
-.nav-link {
+nav ul li a {
     display: block;
     position: relative;
     padding: 0.2em 0;
+    font-family: 'Inter';
 }
 
 /* Fade in */
-.nav-link::after {
+nav ul li a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -67,50 +54,111 @@ main .sub-title {
     transition: opacity 300ms, transform 300ms;
 }
 
-.fa-hamburger {
-    color: white;
-    margin-right: 20px;
-}
-
-
-
-/* .nav-link:hover::after,
-.nav-link:focus::after {
+nav ul li a:hover::after,
+nav ul li a:focus::after {
     opacity: 1;
     transform: translate3d(0, 0, 0);
-} */
+}
 
-.nav-item:nth-child(1) .nav-link {
+nav ul li:nth-child(1) a {
     overflow: hidden;
 }
 
-.nav-item:nth-child(1) .nav-link::after {
+nav ul li:nth-child(1) a::after {
     opacity: 1;
     transform: translate3d(-100%, 0, 0);
 }
 
-.nav-item:nth-child(1) .nav-link:hover::after,
-.nav-item:nth-child(1) .nav-link:focus::after {
+nav ul li:nth-child(1) a:hover::after,
+nav ul li:nth-child(1) a:focus::after {
     transform: translate3d(0, 0, 0);
 }
 
-
-/* Slide in */
-.nav-item:nth-child(2) .nav-link {
+nav ul li:nth-child(2) a {
     overflow: hidden;
 }
 
-.nav-item:nth-child(2) .nav-link::after {
+nav ul li:nth-child(2) a::after {
     opacity: 1;
     transform: translate3d(-100%, 0, 0);
 }
 
-.nav-item:nth-child(2) .nav-link:hover::after,
-.nav-item:nth-child(2) .nav-link:focus::after {
+nav ul li:nth-child(2) a:hover::after,
+nav ul li:nth-child(2) a:focus::after {
     transform: translate3d(0, 0, 0);
 }
 
-.btn {
-    font-family: 'Intern';
-    letter-spacing: 0.1em;
+nav ul li:nth-child(3) a {
+    overflow: hidden;
 }
+
+nav ul li:nth-child(3) a::after {
+    opacity: 1;
+    transform: translate3d(-100%, 0, 0);
+}
+
+nav ul li:nth-child(3) a:hover::after,
+nav ul li:nth-child(3) a:focus::after {
+    transform: translate3d(0, 0, 0);
+}
+
+nav .menu .fa-align-justify {
+    display: none;
+    position: absolute;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.home {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.home .title {
+    margin-top: 150px;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    font-family: 'Inter';
+    font-weight: 600;
+    color: whitesmoke;
+    font-size: 3.5rem;
+}
+
+.home .sub-title {
+    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1), rgba(255, 0, 0, 1), rgba(255, 0, 180, 1));
+    background-clip: text;  
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif, serif;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.student-list {
+    display: block;
+    /* background: rgb(32, 131, 223); */
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 1px rgb(32, 131, 223);
+    color: #fff;
+    transition: 0.2s all;
+}
+
+.student-list:hover {
+    background-color: rgb(32, 131, 223);
+    color: #000;
+
+}
+/* Underline styles */
+
+
