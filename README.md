@@ -46,4 +46,28 @@ Back End Packages:
 3. fruitcake/laravel-cors v2.0
 4. laravel/tinker v2.5
 
+## How to use
+If you want to use this project to view it, you can follow these steps and please copy and paste it in your terminal.
+
+```bash
+git clone https://github.com/dimasgit/12-TKJ_1.git
+
+cd 12-TKJ_1 
+```
+
+The second step, please follow the npm command below to install all package dependencies (**node_modules/**).
+```bash
+npm install && npm update
+```
+If you are a yarn user, you can use the yarn package manager to install it.
+```bash
+yarn && yarn upgrade
+```
+The last step, follow the command below to open a local development server with the address http://localhost:8080 and then copy it to your web browser.
+```js
+npm run dev
+// or
+yarn dev
+```
+
 Happy Coding.
