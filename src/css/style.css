@@ -152,6 +152,7 @@ nav .menu .fa-align-justify {
     border: solid 1px rgb(32, 131, 223);
     color: #fff;
     transition: 0.2s all;
+    font-family: 'Inter';
 }
 
 .student-list:hover {
@@ -159,6 +160,5 @@ nav .menu .fa-align-justify {
     color: #000;
 
 }
-/* Underline styles */
 
 
