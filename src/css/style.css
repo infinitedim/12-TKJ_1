@@ -13,6 +13,7 @@
 
 body {
     background: #000;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -38,6 +39,11 @@ nav ul li a {
     position: relative;
     padding: 0.2em 0;
     font-family: 'Inter';
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #fff;
 }
 
 /* Fade in */
@@ -108,12 +114,17 @@ nav .menu .fa-align-justify {
 }
 
 .background {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .home {
@@ -121,6 +132,7 @@ nav .menu .fa-align-justify {
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 300px;
 }
 
 .home .title {
@@ -135,7 +147,7 @@ nav .menu .fa-align-justify {
 
 .home .sub-title {
     background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1), rgba(255, 0, 0, 1), rgba(255, 0, 180, 1));
-    background-clip: text;  
+    background-clip: text;
     color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -158,7 +170,11 @@ nav .menu .fa-align-justify {
 .student-list:hover {
     background-color: rgb(32, 131, 223);
     color: #000;
+    text-decoration: none;
 
 }
 
 
+.about {
+    margin-bottom: 300px;
+}
