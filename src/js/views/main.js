@@ -1,5 +1,14 @@
 import Particles from "particlesjs/dist/particles.min.js";
 const main = () => {
+
+    const menu = document.querySelector('.fa-align-justify');
+    const list = document.querySelector('nav ul');
+
+    menu.addEventListener('click', () => {
+        list.classList.toggle('clicked')
+        menu.classList.toggle('menu-clicked')
+    })
+
 Particles.init({
 // normal options
     selector: '.background',
