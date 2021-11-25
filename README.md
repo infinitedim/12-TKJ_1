@@ -4,7 +4,7 @@ This is an application front end system from the 12 TKJ 1 web project, if you wa
 
 [API Back End](https://github.com/novalramdhani/restapi-project)
 
-[MIT LICENSE](https://github.com/infinitedim/12-TKJ_1/blob/main/LICENSE)
+[ISC LICENSE](https://github.com/infinitedim/12-TKJ_1/blob/main/LICENSE)
 
 ## Technology Used
 
