@@ -1,10 +1,15 @@
 # 12 TKJ 1 Web Class.
+<p align="center">
+    <a href="https://img.shields.io/github/package-json/v/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/package-json/v/infinitedim/12-TKJ_1" alt="Version"></a>
+    <a href="https://github.com/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/forks/infinitedim/12-TKJ_1?style=social" alt="Forks"></a>
+    <a href="https://github.com/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/stars/infinitedim/12-TKJ_1?style=social" alt="Stars"></a>
+    <a href="https://github.com/infinitedim/12-TKJ_1/blob/main/LICENSE"><img src="https://img.shields.io/github/license/infinitedim/12-TKJ_1" alt="License"></a>
+</p>
 
+# About 12 TKJ 1
 This is an application front end system from the 12 TKJ 1 web project, if you want to see the API Back End of this application, you can visit the github repository link:
 
 [API Back End](https://github.com/novalramdhani/restapi-project)
-
-[ISC LICENSE](https://github.com/infinitedim/12-TKJ_1/blob/main/LICENSE)
 
 ## Technology Used
 
@@ -34,10 +39,11 @@ Front End Packages:
 9. postcss v8.3.11
 10. postcss-loader v6.2.0
 11. postcss-nested v5.0.6
-12. webpack v5.64.1
-13. webpack-cli v4.9.1
-14. webpack-dev-server v4.5.0
-15. webpack-merge v5.8.0
+12. regenerator-runtime v0.13.9
+13. webpack v5.64.1
+14. webpack-cli v4.9.1
+15. webpack-dev-server v4.5.0
+16. webpack-merge v5.8.0
 
 Back End Packages:
 1. phpunit/phpunit v9.5.10
@@ -69,4 +75,10 @@ npm run dev
 yarn dev
 ```
 
-Happy Coding.
+## All Contributors
+Thank you for contributing to this project, here are some amazing contributors!
+
+<a href="https://github.com/infinitedim/12-TKJ_1/graphs/contributors"><img src="https://contrib.rocks/image?repo=infinitedim/12-TKJ_1" alt="All of amazing contributors"></a>
+
+## License
+This project  is open-sourced software licensed under the [ISC license](https://opensource.org/licenses/ISC).
