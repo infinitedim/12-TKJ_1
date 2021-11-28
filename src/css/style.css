@@ -9,6 +9,12 @@
     box-sizing: border-box;
     text-decoration: none;
     color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+html {
+    text-size-adjust: 100%;
+    line-height: 1.6;
 }
 
 body {
