@@ -1,29 +1,30 @@
 {
-  "name": "12-tkj-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "dev": "webpack serve --config webpack.dev.js"
-  },
-  "author": "Dimas Saputra",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
-    "autoprefixer": "^10.4.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.4.4",
-    "particlesjs": "^2.2.3",
-    "postcss": "^8.3.11",
-    "postcss-loader": "^6.2.0",
-    "postcss-nested": "^5.0.6",
-    "webpack": "^5.64.1",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.5.0",
-    "webpack-merge": "^5.8.0"
-  }
+    "name": "12-tkj-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "dev": "webpack-dev-server --config webpack.dev.js"
+    },
+    "author": "Dimas Saputra",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.0",
+        "autoprefixer": "^10.4.0",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.5.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.4.4",
+        "particlesjs": "^2.2.3",
+        "postcss": "^8.3.11",
+        "postcss-loader": "^6.2.0",
+        "postcss-nested": "^5.0.6",
+        "regenerator-runtime": "^0.13.9",
+        "webpack": "^5.64.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.5.0",
+        "webpack-merge": "^5.8.0"
+    }
 }
