@@ -1,18 +1,32 @@
-class StateManagement {
-    constructor() {
-        this.state = {
-            users: [],
-        };
+class SimpleStateManagement {
+    constructor({ name = "", initialState = {} }) {
+        this._state = initialState;
+        this._name = name;
     }
 
-    getState(state) {
-        return this.state[state];
+    getState(stateName) {
+        return this._state[stateName];
     }
 
-    setState(newState) {
-        this.state = { ...this.state, ...newState };
-        console.info(this.getState("users"));
+    setState(newState = {}) {
+        this._state = { ...this._state, ...newState };
     }
 }
 
-export default StateManagement;
+const StateManagement = new SimpleStateManagement({
+    name: "SimpleStateManagement",
+    initialState: {
+        users: [],
+    },
+});
+
+const setState = (newState = {}) => {
+    StateManagement.setState(newState);
+};
+
+const useState = (stateName = "") => {
+    const state = StateManagement.getState(stateName);
+    return state;
+};
+
+export { useState, setState };
