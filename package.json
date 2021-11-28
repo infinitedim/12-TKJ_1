@@ -21,6 +21,7 @@
     "postcss": "^8.3.11",
     "postcss-loader": "^6.2.0",
     "postcss-nested": "^5.0.6",
+    "regenerator-runtime": "^0.13.9",
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0",
