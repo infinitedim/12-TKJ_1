@@ -1,7 +1,7 @@
 class StateManagement {
     constructor() {
         this.state = {
-            githubData: {},
+            users: [],
         };
     }
 
@@ -11,7 +11,7 @@ class StateManagement {
 
     setState(newState) {
         this.state = { ...this.state, ...newState };
-        console.info(this.getState("githubData"));
+        console.info(this.getState("users"));
     }
 }
 

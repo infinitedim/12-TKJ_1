@@ -1,5 +1,5 @@
 const Api = {
-    url: "https://api.github.com/users",
+    url: "https://random-data-api.com/api",
     key: "",
 };
 

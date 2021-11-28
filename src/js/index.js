@@ -1,6 +1,6 @@
 import "regenerator-runtime";
 import main from "./views/main";
-import GithubApi from "./services/GithubApi";
+import RandomUserApi from "./services/RandomUserApi";
 import StateManagement from "./services/StateManagement";
 // import "animate.css";
 import "../css/style.css";
@@ -8,13 +8,12 @@ import "../css/responsive.css";
 
 main();
 
-const state = new StateManagement();
+async function getUsersExample() {
+    const state = new StateManagement();
+    const Api = new RandomUserApi();
+    const data = await Api.getUsers(5);
 
-async function getData() {
-    const Api = new GithubApi("infinitedim");
-    const data = await Api.getData();
-
-    state.setState({ githubData: data });
+    state.setState({ users: data });
 }
 
-getData();
+getUsersExample();
