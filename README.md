@@ -1,12 +1,28 @@
-# 12 TKJ 1 Web Class.
+<h1 align="center">12 TKJ 1 Web Class.</h1>
+
 <p align="center">
+<br>
     <a href="https://img.shields.io/github/package-json/v/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/package-json/v/infinitedim/12-TKJ_1" alt="Version"></a>
-    <a href="https://github.com/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/forks/infinitedim/12-TKJ_1?style=social" alt="Forks"></a>
-    <a href="https://github.com/infinitedim/12-TKJ_1"><img src="https://img.shields.io/github/stars/infinitedim/12-TKJ_1?style=social" alt="Stars"></a>
+    <a href="https://github.com/infinitedim/12-TKJ_1/issues"><img src="https://img.shields.io/github/issues/infinitedim/12-TKJ_1" alt="GitHub issues"></a>
+    <a href="https://github.com/infinitedim/12-TKJ_1/pulls"><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/infinitedim/12-TKJ_1"></a>
     <a href="https://github.com/infinitedim/12-TKJ_1/blob/main/LICENSE"><img src="https://img.shields.io/github/license/infinitedim/12-TKJ_1" alt="License"></a>
 </p>
 
-# About 12 TKJ 1
+<p align="center">
+  <a href="https://github.com/infinitedim/12-TKJ_1/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+  ·
+  <a href="https://github.com/infinitedim/12-TKJ_1/issues">Submit an Issue</a>
+  <br>
+
+ <p align="center">
+  <a href="https://github.com/infinitedim/12-TKJ_1/"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/infinitedim/12-TKJ_1?style=social"></a>
+  <a href="https://github.com/infinitedim/12-TKJ_1/"><img alt="GitHub forks" src="https://img.shields.io/github/forks/infinitedim/12-TKJ_1?style=social"></a>
+</p>
+</p>
+
+<br>
+
+<h1 align="center">About 12 TKJ 1</h1>
 This is an application front end system from the 12 TKJ 1 web project, if you want to see the API Back End of this application, you can visit the github repository link:
 
 [API Back End](https://github.com/novalramdhani/restapi-project)
@@ -115,6 +131,10 @@ npm run dev
 // or
 yarn dev
 ```
+
+## Contributing
+Contributing Guidelines
+Read through our   <a href="https://github.com/infinitedim/12-TKJ_1/blob/main/CONTRIBUTING.md">Contributing Guidelines</a> to learn about how contribute to this project.
 
 ## All Contributors
 Thank you for contributing to this project, here are some amazing contributors!
