@@ -20,8 +20,6 @@
 </p>
 </p>
 
-<br>
-
 <h1 align="center">About 12 TKJ 1</h1>
 This is an application front end system from the 12 TKJ 1 web project, if you want to see the API Back End of this application, you can visit the github repository link:
 
