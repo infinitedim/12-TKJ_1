@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/infinitedim/12-TKJ_1/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
   ·
-  <a href="https://github.com/infinitedim/12-TKJ_1/issues">Submit an Issue</a>
+  <a href="https://github.com/infinitedim/12-TKJ_1/issues/new">Submit an Issue</a>
   <br>
 
  <p align="center">
