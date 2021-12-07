@@ -47,3 +47,4 @@ You can manage your work on GitHub by creating labels to categorize issues, pull
 - https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
