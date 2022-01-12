@@ -6,24 +6,29 @@ module.exports = {
     entry: "./src/js/index.js",
     output: {
         path: path.resolve(__dirname, "dist"),
-        filename: "bundle.js"
+        filename: "bundle.js",
     },
     module: {
         rules: [
-          {
-            test: /\.css$/i,
-            use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
-          },
-          {
-            test: /\.js$/i,
-            exclude: /(node_modules|bower_components)/,
-            use: {
-              loader: 'babel-loader',
-              options: {
-                presets: ['@babel/preset-env']
-              }
-            }
-          }]
+            {
+                test: /\.css$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    "postcss-loader",
+                ],
+            },
+            {
+                test: /\.js$/i,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["@babel/preset-env"],
+                    },
+                },
+            },
+        ],
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -37,11 +42,11 @@ module.exports = {
                 useShortDoctype: true,
                 minifyCSS: true,
                 minifyJS: true,
-                minifyURLs: true
+                minifyURLs: true,
             },
         }),
         new MiniCssExtractPlugin({
-            filename: "style.min.css"
-        })
-    ]
-}
+            filename: "style.min.css",
+        }),
+    ],
+};
