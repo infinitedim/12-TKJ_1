@@ -37,7 +37,7 @@ nav .brand h1 {
 nav ul {
     display: flex;
     width: 30%;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 nav ul li a {
@@ -143,8 +143,6 @@ nav .menu .fa-align-justify {
 
 .home .title {
     margin-top: 150px;
-    animation: fadeInDown;
-    animation-duration: 1s;
     font-family: 'Inter';
     font-weight: 600;
     color: whitesmoke;
@@ -162,7 +160,7 @@ nav .menu .fa-align-justify {
     margin: 10px 0;
 }
 
-.student-list {
+.list-student {
     display: block;
     /* background: rgb(32, 131, 223); */
     padding: 7px;
@@ -173,7 +171,7 @@ nav .menu .fa-align-justify {
     font-family: 'Inter';
 }
 
-.student-list:hover {
+.list-student:hover {
     background-color: rgb(32, 131, 223);
     color: #000;
     text-decoration: none;
