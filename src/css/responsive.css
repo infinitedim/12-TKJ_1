@@ -2,6 +2,7 @@
     .home {
         text-align: center;
     }
+
     .home .title {
         font-size: 2rem;
     }
@@ -18,7 +19,7 @@
         top: 0;
         bottom: 0;
         height: 100vh;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         background-color: #fff;
         z-index: 1;
@@ -33,7 +34,8 @@
     nav .menu .fa-align-justify {
         display: flex;
         top: 40px;
-        cursor: pointer;font-size: 20px;
+        cursor: pointer;
+        font-size: 20px;
         z-index: 1;
         transition: all 1s;
     }
@@ -43,6 +45,36 @@
     }
 
     nav ul li a {
+        color: #111;
+    }
+
+    nav ul li a:hover {
         color: #000;
+    }
+
+    .about {
+        padding: 20px
+    }
+
+    .about p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .about h1 {
+        font-size: 3rem;
+    }
+
+    .list-student-section .row {
+        padding: 8%;
+    }
+
+    .list-student-section .row .col-md-12 h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .list-student-section .col-md-4 {
+        margin-top: 30px;
     }
 }

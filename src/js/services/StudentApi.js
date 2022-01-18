@@ -5,7 +5,7 @@ const StudentApi = {
         try {
             const response = await fetch(`${api.url("v1")}/students`);
             const data = await response.json();
-            return data;
+            return data.data;
         } catch (error) {
             return error;
         }

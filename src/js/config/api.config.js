@@ -1,6 +1,6 @@
 const api = {
     version: "v1",
-    url: (v = "v1") => `https://random-students.herokuapp.com/api/${v}`,
+    url: (v = "v1") => `https://tkj1-backend.herokuapp.com/api/${v}`,
     key: "",
 };
 

@@ -10,6 +10,8 @@
     text-decoration: none;
     color: whitesmoke;
     scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+
 }
 
 html {
@@ -181,4 +183,27 @@ nav .menu .fa-align-justify {
 
 .about {
     margin-bottom: 300px;
+}
+
+.about h1 {
+    font-family: 'Inter';
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.about p {
+    font-family: 'Inter';
+}
+
+.list-student-section .card h1 {
+    color: #000;
+}
+
+.list-student-section .card p {
+    color: #000;
+}
+
+.list-student-section {
+    margin-bottom: 30px;
 }

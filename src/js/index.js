@@ -14,12 +14,17 @@ async function fetchData() {
         let studentCards = "";
         students.forEach((student) => {
             studentCards += cards(student);
+            const studentContainer = document.querySelector(
+                ".student-list-section .row"
+            );
+            studentContainer.innerHTML = studentCards;
         });
         // const studentSection = document.querySelector(
         //     ".list-student-section .row"
         // );
     };
-    console.log(await data);
+
+    // console.log(await data);
 }
 
 fetchData();
