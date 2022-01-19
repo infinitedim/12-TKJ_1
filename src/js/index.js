@@ -19,10 +19,9 @@ async function fetchData() {
             );
             studentContainer.innerHTML = studentCards;
         });
-        // const studentSection = document.querySelector(
-        //     ".list-student-section .row"
-        // );
     };
+
+    updateStudentSection(data);
 
     // console.log(await data);
 }
