@@ -8,16 +8,12 @@ import cards from "./views/cards.js";
 main();
 
 async function fetchData() {
+    const studentContainer = document.querySelector(".list-student-section .row");
     const data = await StudentApi.getStudents();
 
     const updateStudentSection = (students) => {
-        let studentCards = "";
         students.forEach((student) => {
-            studentCards += cards(student);
-            const studentContainer = document.querySelector(
-                ".student-list-section .row"
-            );
-            studentContainer.innerHTML = studentCards;
+            studentContainer.innerHTML += cards(student);
         });
     };
 
